@@ -1,0 +1,206 @@
+[
+  {
+    "id": "proj-001",
+    "slug": "nova-saas-landing",
+    "name": "Nova SaaS Landing Page",
+    "category": "Landing Pages",
+    "shortDescription": "A high-converting SaaS landing page with animated hero, pricing tiers, and lead capture funnel.",
+    "description": "Nova is a premium SaaS landing page built for a B2B startup. The goal was to communicate product value quickly, build trust, and drive demo sign-ups. I designed and developed a dark-themed, gradient-rich experience with smooth scroll animations and a conversion-focused layout.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
+    "liveUrl": "https://example.com/nova-saas",
+    "featured": true,
+    "clientNiche": "SaaS / Technology",
+    "role": "Full Stack Developer & UI Implementation",
+    "features": [
+      "Animated hero with gradient mesh background",
+      "Pricing comparison table with toggle",
+      "Lead capture form with validation",
+      "SEO-optimized meta structure",
+      "Lighthouse score 95+ on performance"
+    ],
+    "challenges": "The client needed a landing page that felt premium but loaded under 2 seconds on mobile networks.",
+    "solutions": "Implemented static generation, optimized images with next/image, lazy-loaded animations, and minimized JavaScript bundles for fast first paint.",
+    "createdAt": "2025-08-15T10:00:00.000Z",
+    "updatedAt": "2025-08-15T10:00:00.000Z"
+  },
+  {
+    "id": "proj-002",
+    "slug": "apex-business-corporate",
+    "name": "Apex Business Corporate Website",
+    "category": "Business Websites",
+    "shortDescription": "Professional corporate website for a consulting firm with service pages, team section, and blog.",
+    "description": "Apex Business needed a polished corporate presence to attract enterprise clients. I built a multi-page website with a strong brand identity, case studies section, and CMS-ready blog structure for future content marketing.",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["Next.js", "Tailwind CSS", "Node.js", "MongoDB"],
+    "liveUrl": "https://example.com/apex-business",
+    "featured": true,
+    "clientNiche": "Business Consulting",
+    "role": "Full Stack Developer",
+    "features": [
+      "Multi-page corporate site architecture",
+      "Team and leadership profiles",
+      "Service detail pages with CTAs",
+      "Contact form with email integration",
+      "Responsive design across all devices"
+    ],
+    "challenges": "Balancing a professional aesthetic with approachable messaging for diverse client segments.",
+    "solutions": "Created a modular component system with consistent typography, whitespace, and subtle animations that feel enterprise-grade yet welcoming.",
+    "createdAt": "2025-07-20T10:00:00.000Z",
+    "updatedAt": "2025-07-20T10:00:00.000Z"
+  },
+  {
+    "id": "proj-003",
+    "slug": "luxe-style-ecommerce",
+    "name": "LuxeStyle E-commerce Store",
+    "category": "E-commerce",
+    "shortDescription": "Premium fashion e-commerce store with product filtering, wishlist, and optimized checkout flow.",
+    "description": "LuxeStyle is a high-end fashion brand that needed an online store reflecting their premium positioning. I developed a Shopify-powered storefront with custom theme sections, product discovery features, and conversion-optimized product pages.",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1472851294607-062aaedbcdfc?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["Shopify", "Liquid", "JavaScript", "Tailwind CSS"],
+    "liveUrl": "https://example.com/luxestyle",
+    "featured": true,
+    "clientNiche": "Fashion / Retail",
+    "role": "Shopify Developer",
+    "features": [
+      "Custom Shopify theme development",
+      "Advanced product filtering",
+      "Wishlist and quick-view modals",
+      "Mobile-first checkout optimization",
+      "Instagram feed integration"
+    ],
+    "challenges": "Large product catalogs caused slow filtering and poor mobile browsing experience.",
+    "solutions": "Implemented client-side filtering with debounced search, lazy-loaded product images, and skeleton loading states for perceived performance.",
+    "createdAt": "2025-06-10T10:00:00.000Z",
+    "updatedAt": "2025-06-10T10:00:00.000Z"
+  },
+  {
+    "id": "proj-004",
+    "slug": "medcare-plus-healthcare",
+    "name": "MedCare Plus Healthcare Portal",
+    "category": "Healthcare",
+    "shortDescription": "Trust-focused healthcare website with appointment booking, doctor profiles, and patient resources.",
+    "description": "MedCare Plus required a website that builds patient trust while making it easy to book appointments and find medical information. I designed an accessible, HIPAA-conscious frontend with clear navigation and empathetic visual design.",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1631217868264-e5b1bb5e8915?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["WordPress", "PHP", "JavaScript", "Tailwind CSS"],
+    "liveUrl": "https://example.com/medcare-plus",
+    "featured": false,
+    "clientNiche": "Healthcare / Medical Clinic",
+    "role": "WordPress Developer",
+    "features": [
+      "Online appointment booking integration",
+      "Doctor and specialist profile pages",
+      "Patient FAQ and resource center",
+      "WCAG accessibility compliance",
+      "Secure contact and inquiry forms"
+    ],
+    "challenges": "Healthcare content must be trustworthy, accessible, and easy to navigate for patients of all ages.",
+    "solutions": "Used high-contrast typography, clear CTAs, simplified navigation, and structured content blocks following healthcare UX best practices.",
+    "createdAt": "2025-05-05T10:00:00.000Z",
+    "updatedAt": "2025-05-05T10:00:00.000Z"
+  },
+  {
+    "id": "proj-005",
+    "slug": "prime-estate-realty",
+    "name": "Prime Estate Realty Platform",
+    "category": "Real Estate",
+    "shortDescription": "Real estate listing platform with property search, map integration, and agent dashboards.",
+    "description": "Prime Estate needed a modern property listing website to showcase luxury homes and connect buyers with agents. I built a filterable property catalog with map views, detailed listing pages, and lead capture for agent follow-ups.",
+    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["Next.js", "React", "Node.js", "MongoDB", "Express.js"],
+    "liveUrl": "https://example.com/prime-estate",
+    "featured": false,
+    "clientNiche": "Real Estate / Property",
+    "role": "Full Stack Developer",
+    "features": [
+      "Advanced property search and filters",
+      "Interactive map with listing pins",
+      "Agent profile and contact system",
+      "Image gallery with lightbox",
+      "Admin panel for listing management"
+    ],
+    "challenges": "Handling hundreds of property listings with images while maintaining fast page loads.",
+    "solutions": "Built paginated API endpoints, implemented image CDN delivery, and used ISR for listing pages to balance freshness with performance.",
+    "createdAt": "2025-04-18T10:00:00.000Z",
+    "updatedAt": "2025-04-18T10:00:00.000Z"
+  },
+  {
+    "id": "proj-006",
+    "slug": "edulearn-academy",
+    "name": "EduLearn Academy Platform",
+    "category": "Education",
+    "shortDescription": "Online learning platform with course catalog, enrollment system, and student dashboard.",
+    "description": "EduLearn Academy wanted to expand beyond in-person classes with an online course platform. I developed a full learning management interface with course browsing, enrollment workflows, and progress tracking for students.",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da1a0b9a?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["Next.js", "Laravel", "MySQL", "Tailwind CSS"],
+    "liveUrl": "https://example.com/edulearn",
+    "featured": false,
+    "clientNiche": "Education / E-Learning",
+    "role": "Full Stack Developer",
+    "features": [
+      "Course catalog with categories",
+      "Student enrollment and authentication",
+      "Progress tracking dashboard",
+      "Instructor profile pages",
+      "Payment integration ready"
+    ],
+    "challenges": "Creating an intuitive learning experience that works for both tech-savvy students and beginners.",
+    "solutions": "Designed a step-by-step onboarding flow, clear course cards with progress indicators, and a simplified dashboard with minimal cognitive load.",
+    "createdAt": "2025-03-12T10:00:00.000Z",
+    "updatedAt": "2025-03-12T10:00:00.000Z"
+  },
+  {
+    "id": "proj-007",
+    "slug": "taskflow-project-manager",
+    "name": "TaskFlow Project Manager",
+    "category": "Custom Web Apps",
+    "shortDescription": "Custom project management web app with kanban boards, team collaboration, and real-time updates.",
+    "description": "TaskFlow is a custom web application for small teams to manage projects collaboratively. I built the full stack from scratch with authentication, kanban boards, task assignments, and notification systems.",
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop"
+    ],
+    "techStack": ["React", "Node.js", "Express.js", "MongoDB", "Socket.io"],
+    "liveUrl": "https://example.com/taskflow",
+    "featured": true,
+    "clientNiche": "Productivity / SaaS",
+    "role": "Full Stack Developer",
+    "features": [
+      "Drag-and-drop kanban boards",
+      "Team member roles and permissions",
+      "Real-time task updates",
+      "File attachments on tasks",
+      "Activity log and notifications"
+    ],
+    "challenges": "Real-time collaboration without conflicts when multiple users edit the same board.",
+    "solutions": "Implemented optimistic UI updates with WebSocket sync, conflict resolution on the server, and debounced persistence to MongoDB.",
+    "createdAt": "2025-02-01T10:00:00.000Z",
+    "updatedAt": "2025-02-01T10:00:00.000Z"
+  }
+]
