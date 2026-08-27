@@ -15,6 +15,7 @@ export const SITE_CONFIG = {
   email: "krmanish489@gmail.com",
   phone: "+91 9173234214",
   whatsapp: "919173234214",
+  whatsappLink: "https://wa.link/ra43rd",
   linkedin: "https://www.linkedin.com/in/abhishek-mishra0606/",
   github: "https://github.com/krmanish489",
   location: "New Delhi, India",

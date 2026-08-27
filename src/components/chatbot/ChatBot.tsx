@@ -71,9 +71,7 @@ export default function ChatBot() {
 
   if (isAdmin) return null;
 
-  const whatsappUrl = `https://wa.me/${SITE_CONFIG.whatsapp}?text=${encodeURIComponent(
-    `Hi ${SITE_CONFIG.name.split(" ")[0]}, I visited your portfolio and would like to discuss a project.`
-  )}`;
+  const whatsappUrl = SITE_CONFIG.whatsappLink;
 
   return (
     <>

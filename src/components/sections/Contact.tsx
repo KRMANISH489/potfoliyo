@@ -41,7 +41,7 @@ export default function Contact() {
   const contactLinks = [
     {
       label: "WhatsApp",
-      href: `https://wa.me/${SITE_CONFIG.whatsapp}`,
+      href: SITE_CONFIG.whatsappLink,
       icon: MessageCircle,
       color: "hover:text-green-400",
     },
