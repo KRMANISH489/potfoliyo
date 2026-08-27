@@ -4,7 +4,11 @@ import path from "path";
 
 const CONTACTS_PATH = path.join(process.cwd(), "data", "contacts.json");
 
-/** POST /api/contact — save contact form submission */
+/**
+ * POST /api/contact
+ * Best-effort local log. Primary delivery is WhatsApp + Email from the client.
+ * On Vercel (read-only FS) this still returns success so the form never fails.
+ */
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -24,21 +28,24 @@ export async function POST(request: NextRequest) {
       createdAt: new Date().toISOString(),
     };
 
-    // Save to JSON file (replace with email service in production)
-    let contacts: typeof submission[] = [];
     try {
-      const data = await fs.readFile(CONTACTS_PATH, "utf-8");
-      contacts = JSON.parse(data);
-    } catch {
-      // File doesn't exist yet
-    }
+      let contacts: typeof submission[] = [];
+      try {
+        const data = await fs.readFile(CONTACTS_PATH, "utf-8");
+        contacts = JSON.parse(data);
+      } catch {
+        // File may not exist yet
+      }
 
-    contacts.push(submission);
-    await fs.mkdir(path.dirname(CONTACTS_PATH), { recursive: true });
-    await fs.writeFile(CONTACTS_PATH, JSON.stringify(contacts, null, 2));
+      contacts.push(submission);
+      await fs.mkdir(path.dirname(CONTACTS_PATH), { recursive: true });
+      await fs.writeFile(CONTACTS_PATH, JSON.stringify(contacts, null, 2));
+    } catch {
+      // Expected on serverless/read-only hosts — client still opens WhatsApp + Email
+    }
 
     return NextResponse.json({ success: true });
   } catch {
-    return NextResponse.json({ error: "Failed to send message" }, { status: 500 });
+    return NextResponse.json({ success: true });
   }
 }
