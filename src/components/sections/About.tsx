@@ -51,14 +51,17 @@ export default function About() {
             className="relative"
           >
             <div className="relative mx-auto aspect-square max-w-md overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-cyan-500/20 to-violet-600/20 p-1">
-              <div className="relative h-full w-full overflow-hidden rounded-xl bg-[#0a0a0f]">
-                <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop"
-                  alt={SITE_CONFIG.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 400px"
-                />
+              <div className="relative flex h-full w-full items-end justify-center overflow-hidden rounded-xl bg-white pt-10 px-3">
+                <div className="relative h-[88%] w-full">
+                  <Image
+                    src="/profile.png"
+                    alt={SITE_CONFIG.name}
+                    fill
+                    className="object-contain object-bottom"
+                    sizes="(max-width: 768px) 100vw, 400px"
+                    priority
+                  />
+                </div>
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 rounded-xl border border-white/10 bg-[#0a0a0f]/90 px-6 py-4 backdrop-blur-sm">
