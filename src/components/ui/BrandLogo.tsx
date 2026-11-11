@@ -7,19 +7,20 @@ import { cn } from "@/lib/utils";
 
 interface BrandLogoProps {
   showText?: boolean;
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "xl";
   className?: string;
   href?: string;
 }
 
 const sizes = {
-  sm: { box: "h-8 w-8 rounded-lg text-[9px]", text: "text-base", gap: "gap-2" },
-  md: { box: "h-10 w-10 rounded-xl text-[11px]", text: "text-lg", gap: "gap-2.5" },
-  lg: { box: "h-12 w-12 rounded-xl text-xs", text: "text-xl", gap: "gap-3" },
+  sm: { box: "h-8 w-8 rounded-lg text-[9px]", text: "text-base", gap: "gap-2", corner: "h-2.5 w-2.5" },
+  md: { box: "h-10 w-10 rounded-xl text-[11px]", text: "text-lg", gap: "gap-2.5", corner: "h-3 w-3" },
+  lg: { box: "h-12 w-12 rounded-xl text-xs", text: "text-xl", gap: "gap-3", corner: "h-3.5 w-3.5" },
+  xl: { box: "h-20 w-20 rounded-2xl text-2xl", text: "text-4xl", gap: "gap-4", corner: "h-5 w-5" },
 };
 
 /** CodAbhi monogram — `CA` in a code-style box */
-function LogoMark({ size }: { size: "sm" | "md" | "lg" }) {
+function LogoMark({ size }: { size: "sm" | "md" | "lg" | "xl" }) {
   const s = sizes[size];
 
   return (
@@ -33,8 +34,8 @@ function LogoMark({ size }: { size: "sm" | "md" | "lg" }) {
       whileHover={{ scale: 1.04, borderColor: "rgba(34, 211, 238, 0.35)" }}
       transition={{ type: "spring", stiffness: 420, damping: 22 }}
     >
-      <span className="absolute left-0 top-0 h-3 w-3 border-l-2 border-t-2 border-cyan-400/70 rounded-tl-lg" />
-      <span className="absolute bottom-0 right-0 h-3 w-3 border-b-2 border-r-2 border-violet-500/70 rounded-br-lg" />
+      <span className={cn("absolute left-0 top-0 rounded-tl-lg border-l-2 border-t-2 border-cyan-400/70", s.corner)} />
+      <span className={cn("absolute bottom-0 right-0 rounded-br-lg border-b-2 border-r-2 border-violet-500/70", s.corner)} />
 
       <span className="relative z-10 tracking-tight">
         <span className="text-cyan-400">C</span>
@@ -51,7 +52,7 @@ function LogoMark({ size }: { size: "sm" | "md" | "lg" }) {
   );
 }
 
-function BrandText({ size }: { size: "sm" | "md" | "lg" }) {
+function BrandText({ size }: { size: "sm" | "md" | "lg" | "xl" }) {
   const s = sizes[size];
 
   return (

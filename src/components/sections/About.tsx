@@ -11,7 +11,7 @@ const highlights = [
   "3 years of hands-on full stack development experience",
   "Landing pages, business websites & portfolio builds",
   "Multiple live projects delivered end-to-end",
-  "Performance-optimized & responsive web applications",
+  "SEO for live sites — on-page, technical, and rank tracking",
   "React.js, Node.js, Express.js & MongoDB stack",
 ];
 
@@ -20,7 +20,7 @@ const buildTypes = [
   "Business & corporate websites",
   "Full-stack web applications",
   "Website speed optimization",
-  "Jump links & interactive UI features",
+  "On-page, technical, and local SEO",
 ];
 
 const whyWorkWithMe = [
@@ -38,7 +38,7 @@ export default function About() {
         <SectionHeading
           label="About Me"
           title="Crafting Digital Experiences That Convert"
-          description="I'm a passionate full stack developer who transforms ideas into powerful web solutions."
+          description="I build websites and web apps, and I handle the SEO that helps them show up in search."
         />
 
         <div className="mt-16 grid gap-12 lg:grid-cols-2 lg:gap-16">

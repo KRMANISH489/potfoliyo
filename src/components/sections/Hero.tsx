@@ -10,7 +10,8 @@ const codeLines = [
   `  brand: "${SITE_CONFIG.brand}",`,
   '  dev: "Abhishek Kumar Mishra",',
   '  stack: ["React.js", "Node.js", "MongoDB"],',
-  '  motto: "build · ship · scale",',
+  '  seo: ["On-page", "Technical", "Local"],',
+  '  motto: "build · ship · rank",',
   "};",
 ];
 

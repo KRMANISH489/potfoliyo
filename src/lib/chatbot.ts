@@ -1,4 +1,4 @@
-import { SITE_CONFIG, SERVICES, SKILL_CATEGORIES } from "@/lib/constants";
+import { SITE_CONFIG, SERVICES, SKILL_CATEGORIES, PRICING_PLANS } from "@/lib/constants";
 
 export interface ChatMessage {
   id: string;
@@ -23,7 +23,7 @@ export function getBotResponse(input: string): string {
   const msg = input.toLowerCase().trim();
 
   if (/^(hi|hello|hey|namaste|hola)\b/.test(msg)) {
-    return `Hey! 👋 You're chatting with ${SITE_CONFIG.brand} — ${SITE_CONFIG.name}'s dev studio. Ask me anything about web dev, projects, or hiring!`;
+    return `Hey! 👋 You're chatting with ${SITE_CONFIG.brand} — ${SITE_CONFIG.name}'s studio. Ask me about web development, SEO, projects, or hiring!`;
   }
 
   if (/service|offer|do you build|website type|kya banate|kya service/.test(msg)) {
@@ -35,7 +35,7 @@ export function getBotResponse(input: string): string {
     const skills = SKILL_CATEGORIES.map(
       (cat) => `**${cat.title}:** ${cat.skills.join(", ")}`
     ).join("\n");
-    return `Here's my tech stack:\n\n${skills.replace(/\*\*/g, "")}\n\nI specialize in React.js, Node.js, Express.js, and MongoDB for full-stack development.`;
+    return `Here's what I work with:\n\n${skills.replace(/\*\*/g, "")}\n\nI build with React.js, Node.js, Express.js, and MongoDB, and I also do on-page, technical, and local SEO.`;
   }
 
   if (/experience|exp|years|background|about you|kaun ho|kon ho/.test(msg)) {
@@ -50,8 +50,11 @@ export function getBotResponse(input: string): string {
     return `You can browse my projects in the Portfolio section on this page, or scroll to "#projects". Each project includes live links, tech stack, and case study details.\n\nHave a similar project in mind? I'd love to hear about it!`;
   }
 
-  if (/price|cost|rate|charge|budget|kitna|paisa|fee|quote/.test(msg)) {
-    return `Pricing depends on project scope, features, and timeline. Every project is unique!\n\nFor a free quote, share your requirements via:\n• WhatsApp: ${SITE_CONFIG.phone}\n• Email: ${SITE_CONFIG.email}\n\nI'll get back to you with a tailored estimate.`;
+  if (/price|cost|rate|charge|budget|kitna|paisa|fee|quote|package|pricing/.test(msg)) {
+    const plans = PRICING_PLANS.map(
+      (plan) => `• ${plan.name}: ₹${plan.price}${plan.unit ? ` ${plan.unit}` : ""} (${plan.delivery})`
+    ).join("\n");
+    return `Here are the starting packages:\n\n${plans}\n\nDomain & hosting are not included.\n\nScroll to the Pricing section, or message me on WhatsApp (${SITE_CONFIG.phone}) with the package you want.`;
   }
 
   if (/location|where|delhi|india|based|remote/.test(msg)) {
@@ -59,11 +62,15 @@ export function getBotResponse(input: string): string {
   }
 
   if (/hire|work with|freelance|available|collaborat|kaam/.test(msg)) {
-    return `Yes, I'm available for freelance and contract work! 🚀\n\nWhether you need a landing page, business website, or full-stack app — I can help. Use the contact form on this page or message me on WhatsApp to discuss your project.`;
+    return `Yes, I'm available for freelance and contract work! 🚀\n\nI can build a landing page, business website, or full-stack app — and I can handle the SEO after launch. Use the contact form on this page or message me on WhatsApp.`;
   }
 
   if (/process|how do you work|timeline|steps/.test(msg)) {
     return `My work process:\n\n1. Requirement Discussion\n2. UI/UX Planning\n3. Development\n4. Testing\n5. Deployment\n6. Ongoing Support\n\nI keep you updated at every step for a smooth experience.`;
+  }
+
+  if (/seo|search engine|ranking|keyword|google console|local seo/.test(msg)) {
+    return `Yes — I offer SEO along with development.\n\nThat includes on-page SEO, technical SEO, local SEO, keyword research, Google Search Console, and rank tracking.\n\nShare your site on WhatsApp (${SITE_CONFIG.phone}) and I'll tell you where to start.`;
   }
 
   if (/landing|business website|ecommerce|wordpress|shopify|speed|optim/.test(msg)) {

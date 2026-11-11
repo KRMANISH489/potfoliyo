@@ -1,206 +1,694 @@
 [
   {
-    "id": "proj-001",
-    "slug": "nova-saas-landing",
-    "name": "Nova SaaS Landing Page",
-    "category": "Landing Pages",
-    "shortDescription": "A high-converting SaaS landing page with animated hero, pricing tiers, and lead capture funnel.",
-    "description": "Nova is a premium SaaS landing page built for a B2B startup. The goal was to communicate product value quickly, build trust, and drive demo sign-ups. I designed and developed a dark-themed, gradient-rich experience with smooth scroll animations and a conversion-focused layout.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&h=800&fit=crop"
+    "id": "proj-bamboo-shoots-club",
+    "slug": "bamboo-shoots-club",
+    "name": "Bamboo Shoots Club",
+    "category": "E-commerce",
+    "shortDescription": "Online store for premium men's shirts, t-shirts, and accessories, with delivery across India.",
+    "description": "Bamboo Shoots Club is an online store for men's clothing in India. Shoppers can browse shirts, t-shirts, and accessories and check out for delivery across the country. I built the store so the collection is easy to scan and a purchase does not take extra steps.",
+    "image": "/uploads/bamboo-shoots-club.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
     ],
-    "techStack": ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
-    "liveUrl": "https://example.com/nova-saas",
+    "liveUrl": "https://bambooshootsclub.com/",
     "featured": true,
-    "clientNiche": "SaaS / Technology",
-    "role": "Full Stack Developer & UI Implementation",
-    "features": [
-      "Animated hero with gradient mesh background",
-      "Pricing comparison table with toggle",
-      "Lead capture form with validation",
-      "SEO-optimized meta structure",
-      "Lighthouse score 95+ on performance"
-    ],
-    "challenges": "The client needed a landing page that felt premium but loaded under 2 seconds on mobile networks.",
-    "solutions": "Implemented static generation, optimized images with next/image, lazy-loaded animations, and minimized JavaScript bundles for fast first paint.",
-    "createdAt": "2025-08-15T10:00:00.000Z",
-    "updatedAt": "2025-08-15T10:00:00.000Z"
-  },
-  {
-    "id": "proj-002",
-    "slug": "apex-business-corporate",
-    "name": "Apex Business Corporate Website",
-    "category": "Business Websites",
-    "shortDescription": "Professional corporate website for a consulting firm with service pages, team section, and blog.",
-    "description": "Apex Business needed a polished corporate presence to attract enterprise clients. I built a multi-page website with a strong brand identity, case studies section, and CMS-ready blog structure for future content marketing.",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&h=800&fit=crop"
-    ],
-    "techStack": ["Next.js", "Tailwind CSS", "Node.js", "MongoDB"],
-    "liveUrl": "https://example.com/apex-business",
-    "featured": true,
-    "clientNiche": "Business Consulting",
+    "clientNiche": "Men's Clothing, India",
     "role": "Full Stack Developer",
     "features": [
-      "Multi-page corporate site architecture",
-      "Team and leadership profiles",
-      "Service detail pages with CTAs",
-      "Contact form with email integration",
-      "Responsive design across all devices"
+      "Men's shirts, t-shirts, and accessories",
+      "Product browsing for a clothing catalog",
+      "Mobile shopping layout",
+      "Checkout path for India-wide delivery",
+      "On-page SEO for the store"
     ],
-    "challenges": "Balancing a professional aesthetic with approachable messaging for diverse client segments.",
-    "solutions": "Created a modular component system with consistent typography, whitespace, and subtle animations that feel enterprise-grade yet welcoming.",
-    "createdAt": "2025-07-20T10:00:00.000Z",
-    "updatedAt": "2025-07-20T10:00:00.000Z"
+    "challenges": "A clothing store has to show the product clearly on a phone, where most of the browsing happens.",
+    "solutions": "Kept the catalog visual and the path from a product to checkout short, without extra pages in between.",
+    "createdAt": "2026-11-12T12:00:00.000Z",
+    "updatedAt": "2026-11-12T12:00:00.000Z"
   },
   {
-    "id": "proj-003",
-    "slug": "luxe-style-ecommerce",
-    "name": "LuxeStyle E-commerce Store",
+    "id": "proj-kika-reads",
+    "slug": "kika-reads",
+    "name": "Kika Reads",
     "category": "E-commerce",
-    "shortDescription": "Premium fashion e-commerce store with product filtering, wishlist, and optimized checkout flow.",
-    "description": "LuxeStyle is a high-end fashion brand that needed an online store reflecting their premium positioning. I developed a Shopify-powered storefront with custom theme sections, product discovery features, and conversion-optimized product pages.",
-    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1472851294607-062aaedbcdfc?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&h=800&fit=crop"
+    "shortDescription": "Shopify store for Arabic and Islamic books, toys, games, stationery, and baby care, made in the UAE.",
+    "description": "Kika Reads is a Shopify store for Muslim kids. It sells Arabic and Islamic books, toys, games, stationery, and natural baby care, with picks tied to Bohra culture and products made in the UAE. I set up the store so parents can browse by product type and buy without leaving the shop.",
+    "image": "/uploads/kika-reads.jpg",
+    "gallery": [],
+    "techStack": [
+      "Shopify",
+      "Liquid",
+      "JavaScript"
     ],
-    "techStack": ["Shopify", "Liquid", "JavaScript", "Tailwind CSS"],
-    "liveUrl": "https://example.com/luxestyle",
-    "featured": true,
-    "clientNiche": "Fashion / Retail",
+    "liveUrl": "https://kikareads.com/",
+    "featured": false,
+    "clientNiche": "Children's Books and Toys, UAE",
     "role": "Shopify Developer",
     "features": [
-      "Custom Shopify theme development",
-      "Advanced product filtering",
-      "Wishlist and quick-view modals",
-      "Mobile-first checkout optimization",
-      "Instagram feed integration"
+      "Books, toys, games, and stationery catalog",
+      "Natural baby care products",
+      "UAE-made product positioning",
+      "Shopify checkout",
+      "Mobile shopping layout"
     ],
-    "challenges": "Large product catalogs caused slow filtering and poor mobile browsing experience.",
-    "solutions": "Implemented client-side filtering with debounced search, lazy-loaded product images, and skeleton loading states for perceived performance.",
-    "createdAt": "2025-06-10T10:00:00.000Z",
-    "updatedAt": "2025-06-10T10:00:00.000Z"
+    "challenges": "The range mixes books, toys, and baby care, so a single long grid makes the right product hard to find.",
+    "solutions": "Grouped the shop around what a parent is looking for and kept checkout on Shopify so payment stays familiar.",
+    "createdAt": "2026-11-12T11:00:00.000Z",
+    "updatedAt": "2026-11-12T12:00:00.000Z"
   },
   {
-    "id": "proj-004",
-    "slug": "medcare-plus-healthcare",
-    "name": "MedCare Plus Healthcare Portal",
-    "category": "Healthcare",
-    "shortDescription": "Trust-focused healthcare website with appointment booking, doctor profiles, and patient resources.",
-    "description": "MedCare Plus required a website that builds patient trust while making it easy to book appointments and find medical information. I designed an accessible, HIPAA-conscious frontend with clear navigation and empathetic visual design.",
-    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1631217868264-e5b1bb5e8915?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&h=800&fit=crop"
+    "id": "proj-bharat-axles",
+    "slug": "bharat-axles",
+    "name": "Bharat Axles",
+    "category": "E-commerce",
+    "shortDescription": "Product site for tractor and automotive spare parts, including shafts, gears, and axle components.",
+    "description": "Bharat Axles is the site for a manufacturer of tractor and automotive spare parts in India. It presents shafts, gears, axle components, crown pinions, and related parts so a buyer can find the component and enquire. I built a catalog-style site that stays readable for a technical buyer.",
+    "image": "/uploads/bharat-axles.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
     ],
-    "techStack": ["WordPress", "PHP", "JavaScript", "Tailwind CSS"],
-    "liveUrl": "https://example.com/medcare-plus",
+    "liveUrl": "https://www.bharataxles.com/",
     "featured": false,
-    "clientNiche": "Healthcare / Medical Clinic",
+    "clientNiche": "Tractor and Automotive Parts, India",
+    "role": "Full Stack Developer",
+    "features": [
+      "Parts catalog for shafts, gears, and axles",
+      "Product groups for tractor and automotive components",
+      "Enquiry path for buyers",
+      "Technical product presentation",
+      "Search-friendly page structure"
+    ],
+    "challenges": "Buyers search by part type, and a marketing homepage hides the component they came for.",
+    "solutions": "Organized the site around part families and kept an enquiry close to each product group.",
+    "createdAt": "2026-11-12T10:00:00.000Z",
+    "updatedAt": "2026-11-12T12:00:00.000Z"
+  },
+  {
+    "id": "proj-skyline-prime-realty",
+    "slug": "skyline-prime-realty",
+    "name": "Skyline Prime Realty",
+    "category": "Real Estate",
+    "shortDescription": "Brokerage website in Dubai for off-plan investments, luxury villas, and waterfront homes.",
+    "description": "Skyline Prime Realty is a brokerage site in Dubai. It introduces off-plan investments, luxury villas, and waterfront residences, and gives a buyer a way to start a conversation. I built a brokerage website that leads with the kind of property, not a generic agency template.",
+    "image": "/uploads/skyline-prime-realty.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://skylinerealtyuae.com/",
+    "featured": true,
+    "clientNiche": "Real Estate Brokerage, Dubai",
+    "role": "Full Stack Developer",
+    "features": [
+      "Off-plan, villa, and waterfront positioning",
+      "Brokerage introduction for Dubai buyers",
+      "Enquiry path for new investors",
+      "Mobile layout for property browsing",
+      "Local SEO structure"
+    ],
+    "challenges": "A brokerage site has to feel specific to Dubai property without turning into a long list of every listing.",
+    "solutions": "Grouped the offer into off-plan, villas, and waterfront homes, and made the enquiry the next step from each group.",
+    "createdAt": "2026-11-12T09:00:00.000Z",
+    "updatedAt": "2026-11-12T12:00:00.000Z"
+  },
+  {
+    "id": "proj-dental-implants",
+    "slug": "dental-implants-gurugram",
+    "name": "Dental Implants, Gurugram",
+    "category": "Landing Pages",
+    "shortDescription": "Landing page for permanent full-mouth dental implants in Gurugram, built to book appointments.",
+    "description": "A focused landing page for The Dental Roots implant offer in Gurugram. It presents permanent full-mouth implants as specialist care and keeps the appointment booking path short. I built it so a visitor can understand the treatment and book without moving through the main clinic site.",
+    "image": "/uploads/dental-implants.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://implants.thedentalroots.com",
+    "featured": false,
+    "clientNiche": "Dental Implants, Gurugram",
+    "role": "Full Stack Developer",
+    "features": [
+      "Full-mouth implant offer",
+      "Appointment booking path",
+      "Mobile-first layout",
+      "On-page SEO setup",
+      "WhatsApp and enquiry capture"
+    ],
+    "challenges": "Implant searches are high intent, and sending those visitors into a full clinic website loses the appointment.",
+    "solutions": "Kept the page on one offer, with the treatment, trust points, and booking action visible without extra navigation.",
+    "createdAt": "2026-11-12T08:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-gymbo-preschool",
+    "slug": "gymbo-preschool-dubai",
+    "name": "Gymbo Preschool",
+    "category": "Landing Pages",
+    "shortDescription": "Enrolment landing page for a preschool and childcare centre in Dubai.",
+    "description": "An enrolment page for Gymbo, a preschool and childcare centre in Dubai. It covers Montessori, early childhood, daycare, and creche programs, and leads parents toward enrolment. I built a calm, parent-friendly page that explains the programs and makes the next step obvious.",
+    "image": "/uploads/gymbo-preschool.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://preschool-childcare-dubai.gymbo.ae",
+    "featured": false,
+    "clientNiche": "Preschool and Childcare, Dubai",
+    "role": "Full Stack Developer",
+    "features": [
+      "Program overview for preschool and daycare",
+      "Enrolment call to action",
+      "Parent-friendly layout",
+      "Mobile-first design",
+      "On-page SEO for Dubai searches"
+    ],
+    "challenges": "Parents compare several schools quickly, so a long brochure page does not get them to enquire.",
+    "solutions": "Led with the programs parents search for and kept enrolment one step away on both phone and desktop.",
+    "createdAt": "2026-11-12T07:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-family-dentistry-queen",
+    "slug": "family-dentistry-on-queen",
+    "name": "Family Dentistry on Queen",
+    "category": "Landing Pages",
+    "shortDescription": "Family dental landing page for Queen West, Toronto, with evening, weekend, and emergency visits.",
+    "description": "A landing page for Family Dentistry on Queen in Queen West, Toronto. It presents gentle family dental care, evening and weekend hours, and emergency appointments, with a path to book online or call. I built it so a local family can see the hours and book without hunting through a large site.",
+    "image": "/uploads/family-dentistry-queen.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://www.familydentistryonqueen.com/",
+    "featured": false,
+    "clientNiche": "Family Dentistry, Toronto",
+    "role": "Full Stack Developer",
+    "features": [
+      "Family-first clinic positioning",
+      "Evening and weekend hours",
+      "Emergency appointment note",
+      "Online booking and phone path",
+      "Local SEO structure for Queen West"
+    ],
+    "challenges": "Families decide on hours and location before they read about treatments.",
+    "solutions": "Put the neighbourhood, hours, and booking options above the fold, then kept the rest of the page short.",
+    "createdAt": "2026-11-12T06:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-serenz-by-danube",
+    "slug": "serenz-by-danube",
+    "name": "Serenz by Danube",
+    "category": "Landing Pages",
+    "shortDescription": "Off-plan landing page for Serenz by Danube in Jumeirah Village Circle, Dubai.",
+    "description": "A property landing page for Serenz by Danube in Jumeirah Village Circle. It introduces the off-plan apartments, amenities, and location, and asks visitors for the payment plan and brochure. I built a single-project page that leads an enquiry instead of a full property portal.",
+    "image": "/uploads/serenz-by-danube.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://off-plan-projects-dubai.com/serenz-by-danube",
+    "featured": true,
+    "clientNiche": "Off-Plan Property, Dubai",
+    "role": "Full Stack Developer",
+    "features": [
+      "JVC project overview",
+      "Amenities and location sections",
+      "Payment plan and brochure request",
+      "Enquiry-focused layout",
+      "On-page SEO for the project name"
+    ],
+    "challenges": "Off-plan buyers want the payment plan and brochure, not a generic listings grid.",
+    "solutions": "Built the page around one project and made the brochure and payment-plan request the main action.",
+    "createdAt": "2026-11-12T05:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-greenz-by-danube",
+    "slug": "greenz-by-danube",
+    "name": "Greenz by Danube",
+    "category": "Landing Pages",
+    "shortDescription": "Landing page for furnished 3 to 5 BHK townhouses and villas in Dubai Academic City.",
+    "description": "A landing page for Greenz by Danube in Dubai Academic City. It presents fully furnished 3, 4, and 5 BHK townhouses and villas, the 70/30 payment plan, Golden Visa eligibility, and a Q4 2029 handover. I built it so a buyer can request the price list and floor plans from the same page.",
+    "image": "/uploads/greenz-by-danube.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://off-plan-projects-dubai.com/greenz-by-danube",
+    "featured": false,
+    "clientNiche": "Off-Plan Villas, Dubai",
+    "role": "Full Stack Developer",
+    "features": [
+      "3 to 5 BHK townhouse and villa offer",
+      "Payment plan and handover details",
+      "Price list and floor plan request",
+      "Golden Visa note",
+      "Project-specific landing layout"
+    ],
+    "challenges": "The offer has several unit types, a payment plan, and a handover date, and burying any of them drops the enquiry.",
+    "solutions": "Gave each buying detail its own short section and kept the price-list request visible while the visitor reads.",
+    "createdAt": "2026-11-12T04:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-ska-elegant",
+    "slug": "ska-elegant",
+    "name": "SKA Elegant",
+    "category": "Landing Pages",
+    "shortDescription": "Landing page for Indian investors exploring Danube off-plan homes on a 1% monthly plan.",
+    "description": "A landing page for SKA Elegant, aimed at Indian investors looking at Danube off-plan homes. It introduces Greenz, Serenz, and Breez, the 1% monthly plan, and Golden Visa guidance. I built a partner-style page that routes an investor to a conversation instead of a public listings site.",
+    "image": "/uploads/ska-elegant.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://off-plan-projects-dubai.com/srk-residences/",
+    "featured": false,
+    "clientNiche": "Off-Plan Investment, India to Dubai",
+    "role": "Full Stack Developer",
+    "features": [
+      "Investor-focused project selection",
+      "1% monthly plan explanation",
+      "Golden Visa guidance",
+      "Enquiry path for Indian buyers",
+      "Short, scannable project blocks"
+    ],
+    "challenges": "Investors outside Dubai need the payment plan and visa point explained before they will enquire.",
+    "solutions": "Opened with the 1% plan and the projects it applies to, then kept the enquiry form close to that explanation.",
+    "createdAt": "2026-11-12T03:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-spectra-eye",
+    "slug": "spectra-eye-mauritius",
+    "name": "Spectra Eye Mauritius",
+    "category": "Landing Pages",
+    "shortDescription": "Eye hospital landing page in Ebene, Mauritius, for cataract, LASIK, glaucoma, and retina care.",
+    "description": "A landing page for Spectra Eye in Ebene, Mauritius. It presents cataract, LASIK, glaucoma, and retina care under one clinic and asks visitors to book a consultation. I built a local hospital page that stays easy to scan on a phone.",
+    "image": "/uploads/spectra-eye.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://spectraeye-mauritius.spectraeyemu.com",
+    "featured": true,
+    "clientNiche": "Eye Hospital, Mauritius",
+    "role": "Full Stack Developer",
+    "features": [
+      "Cataract, LASIK, glaucoma, and retina sections",
+      "Ebene clinic positioning",
+      "Consultation booking path",
+      "Mobile-first medical layout",
+      "Local SEO structure"
+    ],
+    "challenges": "Several specialties on one page can hide the reason a patient came to the site.",
+    "solutions": "Split the treatments into short blocks and kept the consultation action available from the first screen.",
+    "createdAt": "2026-11-12T02:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-shahrukhz-by-danube",
+    "slug": "shahrukhz-by-danube",
+    "name": "Shahrukhz by Danube",
+    "category": "Landing Pages",
+    "shortDescription": "Off-plan landing page for furnished homes and penthouses at Dubai Maritime City.",
+    "description": "A landing page for Shahrukhz by Danube at Dubai Maritime City. It presents fully furnished homes and penthouses, with handover in December 2029, and leads visitors to an enquiry. I built a single-project page around the location, the home types, and the handover date.",
+    "image": "/uploads/shahrukhz-by-danube.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://off-plan-projects-dubai.com/off-plan-srk/",
+    "featured": false,
+    "clientNiche": "Off-Plan Property, Dubai Maritime City",
+    "role": "Full Stack Developer",
+    "features": [
+      "Maritime City project overview",
+      "Furnished homes and penthouses",
+      "December 2029 handover",
+      "Enquiry-focused layout",
+      "On-page SEO for the project name"
+    ],
+    "challenges": "The project name, location, and handover date all need to be obvious in the first screen.",
+    "solutions": "Led with the project and the waterfront location, then placed the home types and handover date before the enquiry.",
+    "createdAt": "2026-11-12T01:00:00.000Z",
+    "updatedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "proj-seo-rank-tracker",
+    "slug": "seo-rank-tracker",
+    "name": "SEO Rank Tracker",
+    "category": "Custom Web Apps",
+    "shortDescription": "Agency SEO rank tracker with live Google positions, technical audits, Local checks, and scheduled white-label client reports.",
+    "description": "A product built for SEO agencies that need one place to watch keyword positions, run technical audits, and send client-ready reports. The dashboard covers live Google rankings, Local and Google Business Profile checks, and white-label reports that go out on a schedule. I designed and built the full web app so an agency can track many clients without stitching together separate tools.",
+    "image": "/uploads/seo-rank-tracker.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "liveUrl": "https://seo-ranking-sigma.vercel.app/",
+    "featured": true,
+    "clientNiche": "SEO Agencies",
+    "role": "Full Stack Developer",
+    "features": [
+      "Live keyword rank tracking",
+      "Technical SEO audits",
+      "Local and Google Business Profile checks",
+      "White-label client reports on a schedule",
+      "Multi-client agency dashboard"
+    ],
+    "challenges": "Agencies were checking ranks, audits, and client reporting in separate tools, so a single client update took too long to prepare.",
+    "solutions": "Brought rankings, audits, local checks, and scheduled white-label reports into one dashboard so a client update can be reviewed and sent from the same place.",
+    "createdAt": "2026-11-11T18:00:00.000Z",
+    "updatedAt": "2026-11-11T18:00:00.000Z"
+  },
+  {
+    "id": "proj-agentic-ai",
+    "slug": "agentic-ai",
+    "name": "Agentic AI",
+    "category": "Custom Web Apps",
+    "shortDescription": "A ReAct agent that teaches IT in plain language, writes working code, searches the web, and builds landing pages in one chat.",
+    "description": "Agentic AI is a free ReAct-style assistant for people who want IT explained clearly and working code in the same conversation. It can teach a topic in plain language, write code, search the web, and draft a landing page without switching tools. I built the chat product end to end, from the conversation interface to the agent loop behind it.",
+    "image": "/uploads/agentic-ai.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Render"
+    ],
+    "liveUrl": "https://agentic-ai-d0cx.onrender.com/",
+    "featured": true,
+    "clientNiche": "AI Product",
+    "role": "Full Stack Developer",
+    "features": [
+      "Single chat for teaching, coding, and research",
+      "ReAct-style agent that can search the web",
+      "Working code written inside the conversation",
+      "Landing page drafts from a plain-language brief",
+      "Clean chat interface for non-technical users"
+    ],
+    "challenges": "The product had to teach, write code, and look things up without feeling like three separate apps glued together.",
+    "solutions": "Kept everything inside one chat and let the agent decide when to explain, write code, or search, so the user never leaves the conversation.",
+    "createdAt": "2026-11-11T17:00:00.000Z",
+    "updatedAt": "2026-11-11T17:00:00.000Z"
+  },
+  {
+    "id": "proj-the-sight-avenue",
+    "slug": "the-sight-avenue",
+    "name": "The Sight Avenue",
+    "category": "Healthcare",
+    "shortDescription": "Eye hospital website for Delhi NCR covering LASIK, cataract, retina, and diagnostics across Delhi and Gurgaon.",
+    "description": "The Sight Avenue is an eye hospital in Delhi NCR. The site introduces LASIK, cataract, retina, and advanced diagnostics, and makes it easy for patients in Delhi and Gurgaon to understand the hospital and book a visit. I built a clear, trust-first hospital website with treatment pages that stay readable on a phone.",
+    "image": "/uploads/the-sight-avenue.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://thesightavenue.com/",
+    "featured": true,
+    "clientNiche": "Eye Hospital, Delhi NCR",
+    "role": "Full Stack Developer",
+    "features": [
+      "Treatment pages for LASIK, cataract, and retina",
+      "Delhi and Gurgaon location coverage",
+      "Patient-friendly hospital storytelling",
+      "Mobile-first layout for appointment intent",
+      "SEO-ready page structure for local search"
+    ],
+    "challenges": "Patients needed to compare treatments and locations quickly, without a dense medical site that is hard to scan on a phone.",
+    "solutions": "Organized services, locations, and calls to action into short, scannable pages so a visitor can find the right treatment and reach the hospital without hunting through menus.",
+    "createdAt": "2026-11-11T16:00:00.000Z",
+    "updatedAt": "2026-11-11T16:00:00.000Z"
+  },
+  {
+    "id": "proj-the-dental-roots",
+    "slug": "the-dental-roots",
+    "name": "The Dental Roots",
+    "category": "Healthcare",
+    "shortDescription": "Dental clinic website for Gurgaon and Delhi covering implants, Invisalign, veneers, and smile makeovers.",
+    "description": "The Dental Roots is a dental clinic in Gurgaon and Delhi. The website presents implants, Invisalign, veneers, and smile makeovers in a calm, premium layout and leads visitors toward a consultation. I built the site so treatment choices are easy to compare and booking is always one step away.",
+    "image": "/uploads/the-dental-roots.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://thedentalroots.com/",
+    "featured": true,
+    "clientNiche": "Dental Clinic, Gurgaon & Delhi",
+    "role": "Full Stack Developer",
+    "features": [
+      "Treatment pages for implants, Invisalign, and veneers",
+      "Smile makeover positioning",
+      "Gurgaon and Delhi clinic coverage",
+      "Consultation-focused calls to action",
+      "Clean, premium clinic presentation"
+    ],
+    "challenges": "High-intent dental searches need a site that feels trustworthy and still gets a visitor to a consult without a long form maze.",
+    "solutions": "Led each treatment page with what the patient gets, then kept the consult path short and visible on both desktop and mobile.",
+    "createdAt": "2026-11-11T15:00:00.000Z",
+    "updatedAt": "2026-11-11T15:00:00.000Z"
+  },
+  {
+    "id": "proj-dr-feras-yaish",
+    "slug": "dr-feras-yaish",
+    "name": "Dr. Feras Yaish",
+    "category": "Healthcare",
+    "shortDescription": "Personal site for an orthopaedic surgeon in Abu Dhabi, with a clear path to book a consultation.",
+    "description": "A personal website for Dr. Feras Ya'ish, consultant orthopaedic surgeon in Abu Dhabi. The page introduces his practice at Healthpoint and gives patients a direct way to book a consultation. I built a focused doctor site that leads with credentials and the next step, instead of a generic clinic template.",
+    "image": "/uploads/dr-feras-yaish.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://drferasyaishortho.com/",
+    "featured": false,
+    "clientNiche": "Orthopaedic Surgery, Abu Dhabi",
+    "role": "Full Stack Developer",
+    "features": [
+      "Surgeon profile and practice context",
+      "Consultation booking path",
+      "Mobile layout for patients searching on the go",
+      "Calm medical visual system",
+      "Clear local positioning for Abu Dhabi"
+    ],
+    "challenges": "A specialist site has to earn trust in a few seconds and still make booking obvious.",
+    "solutions": "Put credentials, practice location, and the consultation action above the fold, and kept the rest of the page short enough to read on a phone.",
+    "createdAt": "2026-11-11T14:00:00.000Z",
+    "updatedAt": "2026-11-11T14:00:00.000Z"
+  },
+  {
+    "id": "proj-ags-legal",
+    "slug": "ags-legal",
+    "name": "AGS Legal",
+    "category": "Business Websites",
+    "shortDescription": "Website for a New Delhi boutique firm of advocates and chartered accountants.",
+    "description": "AGS Legal is a boutique firm of advocates and chartered accountants based in New Delhi. The site presents the practice as both a law firm and an advisory desk, with a quiet, formal tone that matches how the firm speaks to clients. I built a compact business website that introduces the practice without the noise of a large-firm template.",
+    "image": "/uploads/ags-legal.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://agslegal.com/",
+    "featured": false,
+    "clientNiche": "Law Firm, New Delhi",
+    "role": "Full Stack Developer",
+    "features": [
+      "Firm introduction for advocates and chartered accountants",
+      "New Delhi practice positioning",
+      "Formal, low-noise visual design",
+      "Fast, lightweight pages",
+      "Clear path for a new client enquiry"
+    ],
+    "challenges": "The firm sits between legal practice and chartered accountancy, so a standard law-firm template would have described only half of the work.",
+    "solutions": "Wrote the site around both sides of the practice and kept the layout spare so the firm’s own positioning stays in front.",
+    "createdAt": "2026-11-11T13:00:00.000Z",
+    "updatedAt": "2026-11-11T13:00:00.000Z"
+  },
+  {
+    "id": "proj-skinlab",
+    "slug": "skinlab",
+    "name": "SkinLab",
+    "category": "Healthcare",
+    "shortDescription": "Dermatology clinic website in Dubai for acne, laser, and skin treatments, with a free consultation offer.",
+    "description": "SkinLab is a skin care clinic in Dubai. The site covers acne, laser, and dermatology treatments and invites visitors to a free consultation. I built a treatment-led clinic website that feels closer to a premium studio than a hospital brochure, while keeping booking easy to find.",
+    "image": "/uploads/skinlab.jpg",
+    "gallery": [],
+    "techStack": [
+      "WordPress",
+      "Elementor",
+      "PHP"
+    ],
+    "liveUrl": "https://skinlab.ae/",
+    "featured": true,
+    "clientNiche": "Dermatology Clinic, Dubai",
     "role": "WordPress Developer",
     "features": [
-      "Online appointment booking integration",
-      "Doctor and specialist profile pages",
-      "Patient FAQ and resource center",
-      "WCAG accessibility compliance",
-      "Secure contact and inquiry forms"
+      "Treatment pages for acne, laser, and dermatology",
+      "Free consultation call to action",
+      "Premium clinic presentation for Dubai",
+      "Editable WordPress layout for the clinic team",
+      "Local SEO structure for skin-care searches"
     ],
-    "challenges": "Healthcare content must be trustworthy, accessible, and easy to navigate for patients of all ages.",
-    "solutions": "Used high-contrast typography, clear CTAs, simplified navigation, and structured content blocks following healthcare UX best practices.",
-    "createdAt": "2025-05-05T10:00:00.000Z",
-    "updatedAt": "2025-05-05T10:00:00.000Z"
+    "challenges": "The clinic needed a site the team could update, without losing the polished look patients expect from a Dubai skin studio.",
+    "solutions": "Built it on WordPress with a structured treatment layout, so new services can be edited in the CMS while the consultation path stays fixed.",
+    "createdAt": "2026-11-11T12:00:00.000Z",
+    "updatedAt": "2026-11-11T12:00:00.000Z"
   },
   {
-    "id": "proj-005",
-    "slug": "prime-estate-realty",
-    "name": "Prime Estate Realty Platform",
-    "category": "Real Estate",
-    "shortDescription": "Real estate listing platform with property search, map integration, and agent dashboards.",
-    "description": "Prime Estate needed a modern property listing website to showcase luxury homes and connect buyers with agents. I built a filterable property catalog with map views, detailed listing pages, and lead capture for agent follow-ups.",
-    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop"
+    "id": "proj-dr-arun-rajeswaran",
+    "slug": "dr-arun-rajeswaran",
+    "name": "Dr. Arun Rajeswaran",
+    "category": "Healthcare",
+    "shortDescription": "Personal website for a neurosurgeon in Dubai, covering brain and spine surgery at Zulekha Hospital.",
+    "description": "A personal site for Dr. Arun Rajeswaran, neurosurgeon in Dubai. It presents his brain and spine practice at Zulekha Hospital and gives patients a direct way to understand the care and get in touch. I built a specialist website that stays precise about the work without turning into a wall of medical text.",
+    "image": "/uploads/dr-arun-rajeswaran.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
     ],
-    "techStack": ["Next.js", "React", "Node.js", "MongoDB", "Express.js"],
-    "liveUrl": "https://example.com/prime-estate",
+    "liveUrl": "https://drarunrajeswaran.com/",
     "featured": false,
-    "clientNiche": "Real Estate / Property",
+    "clientNiche": "Neurosurgery, Dubai",
     "role": "Full Stack Developer",
     "features": [
-      "Advanced property search and filters",
-      "Interactive map with listing pins",
-      "Agent profile and contact system",
-      "Image gallery with lightbox",
-      "Admin panel for listing management"
+      "Brain and spine practice overview",
+      "Hospital affiliation with Zulekha Hospital",
+      "Dubai-focused patient positioning",
+      "Consultation path for new patients",
+      "Readable layout for complex medical topics"
     ],
-    "challenges": "Handling hundreds of property listings with images while maintaining fast page loads.",
-    "solutions": "Built paginated API endpoints, implemented image CDN delivery, and used ISR for listing pages to balance freshness with performance.",
-    "createdAt": "2025-04-18T10:00:00.000Z",
-    "updatedAt": "2025-04-18T10:00:00.000Z"
+    "challenges": "Neurosurgery is hard to explain, and a long clinical page loses the people who are deciding whether to book.",
+    "solutions": "Split the practice into short sections a patient can scan, and kept the contact path visible while they read.",
+    "createdAt": "2026-11-11T11:00:00.000Z",
+    "updatedAt": "2026-11-11T11:00:00.000Z"
   },
   {
-    "id": "proj-006",
-    "slug": "edulearn-academy",
-    "name": "EduLearn Academy Platform",
-    "category": "Education",
-    "shortDescription": "Online learning platform with course catalog, enrollment system, and student dashboard.",
-    "description": "EduLearn Academy wanted to expand beyond in-person classes with an online course platform. I developed a full learning management interface with course browsing, enrollment workflows, and progress tracking for students.",
-    "image": "https://images.unsplash.com/photo-1503676260728-1c00da1a0b9a?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1200&h=800&fit=crop"
+    "id": "proj-worth",
+    "slug": "worth",
+    "name": "Worth",
+    "category": "Business Websites",
+    "shortDescription": "Website for a fee-only SEBI-registered investment adviser in India, with a free net-worth tracker.",
+    "description": "Worth is the site for a fee-only SEBI Registered Investment Adviser in India. It explains a no-commission, no-product-selling practice and invites people to track their full net worth on the Worth app. I built a finance website that states the advice model plainly and gives the product a clear place on the page.",
+    "image": "/uploads/worth.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
     ],
-    "techStack": ["Next.js", "Laravel", "MySQL", "Tailwind CSS"],
-    "liveUrl": "https://example.com/edulearn",
-    "featured": false,
-    "clientNiche": "Education / E-Learning",
-    "role": "Full Stack Developer",
-    "features": [
-      "Course catalog with categories",
-      "Student enrollment and authentication",
-      "Progress tracking dashboard",
-      "Instructor profile pages",
-      "Payment integration ready"
-    ],
-    "challenges": "Creating an intuitive learning experience that works for both tech-savvy students and beginners.",
-    "solutions": "Designed a step-by-step onboarding flow, clear course cards with progress indicators, and a simplified dashboard with minimal cognitive load.",
-    "createdAt": "2025-03-12T10:00:00.000Z",
-    "updatedAt": "2025-03-12T10:00:00.000Z"
-  },
-  {
-    "id": "proj-007",
-    "slug": "taskflow-project-manager",
-    "name": "TaskFlow Project Manager",
-    "category": "Custom Web Apps",
-    "shortDescription": "Custom project management web app with kanban boards, team collaboration, and real-time updates.",
-    "description": "TaskFlow is a custom web application for small teams to manage projects collaboratively. I built the full stack from scratch with authentication, kanban boards, task assignments, and notification systems.",
-    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=800&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop"
-    ],
-    "techStack": ["React", "Node.js", "Express.js", "MongoDB", "Socket.io"],
-    "liveUrl": "https://example.com/taskflow",
+    "liveUrl": "https://worthostech.in/",
     "featured": true,
-    "clientNiche": "Productivity / SaaS",
+    "clientNiche": "Investment Advisory, India",
     "role": "Full Stack Developer",
     "features": [
-      "Drag-and-drop kanban boards",
-      "Team member roles and permissions",
-      "Real-time task updates",
-      "File attachments on tasks",
-      "Activity log and notifications"
+      "Fee-only adviser positioning",
+      "SEBI registration presented up front",
+      "Net-worth tracking product section",
+      "No-commission explanation for first-time visitors",
+      "Calm finance visual system"
     ],
-    "challenges": "Real-time collaboration without conflicts when multiple users edit the same board.",
-    "solutions": "Implemented optimistic UI updates with WebSocket sync, conflict resolution on the server, and debounced persistence to MongoDB.",
-    "createdAt": "2025-02-01T10:00:00.000Z",
-    "updatedAt": "2025-02-01T10:00:00.000Z"
+    "challenges": "Visitors arrive suspicious of investment sites. The page had to separate fee-only advice from product selling in the first screen.",
+    "solutions": "Led with the SEBI registration and the no-commission model, then introduced the net-worth tracker as a tool rather than a sales pitch.",
+    "createdAt": "2026-11-11T10:00:00.000Z",
+    "updatedAt": "2026-11-11T10:00:00.000Z"
+  },
+  {
+    "id": "proj-neera-eye-centre",
+    "slug": "neera-eye-centre",
+    "name": "Neera Eye Centre",
+    "category": "Healthcare",
+    "shortDescription": "Eye hospital website in Darya Ganj, Delhi, for cataract, LASIK, cornea, and retina care.",
+    "description": "Neera Eye Centre & Laser Vision is an eye hospital in Darya Ganj, Delhi. The site covers cataract, LASIK, cornea, and retina care, and introduces the doctors and technology behind the hospital. I built a local hospital website that helps a Delhi patient find the right treatment and the clinic’s location without extra steps.",
+    "image": "/uploads/neera-eye-centre.jpg",
+    "gallery": [],
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "liveUrl": "https://eye-care-hospital.com/",
+    "featured": false,
+    "clientNiche": "Eye Hospital, Delhi",
+    "role": "Full Stack Developer",
+    "features": [
+      "Cataract, LASIK, cornea, and retina sections",
+      "Darya Ganj hospital positioning",
+      "Doctor and technology introduction",
+      "Patient-focused service layout",
+      "Local search structure for Delhi eye care"
+    ],
+    "challenges": "The hospital offers several specialties, and burying them in one long page made the right doctor hard to find.",
+    "solutions": "Gave each specialty its own clear section and kept location and contact details available from every major page.",
+    "createdAt": "2026-11-11T09:00:00.000Z",
+    "updatedAt": "2026-11-11T09:00:00.000Z"
+  },
+  {
+    "id": "proj-digeex-seo",
+    "slug": "digeex-seo",
+    "name": "DigeeX SEO",
+    "category": "Custom Web Apps",
+    "shortDescription": "Internal SEO and AEO audit console for reviewing site health, content, and answer-engine readiness.",
+    "description": "DigeeX SEO is an internal console for SEO and AEO audits. It gives the team one screen to review site health, content, and how ready a page is for answer engines. I built the audit workspace so checks that used to live in separate reports can be read together.",
+    "image": "/uploads/digeex-seo.jpg",
+    "gallery": [],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "liveUrl": "https://seo.digeesell.ae/",
+    "featured": false,
+    "clientNiche": "SEO Operations",
+    "role": "Full Stack Developer",
+    "features": [
+      "Internal SEO audit console",
+      "AEO readiness checks",
+      "Site health and content review in one view",
+      "Operator-focused layout, not a marketing page",
+      "Fast scanning of audit results"
+    ],
+    "challenges": "The team needed an internal tool, not another public landing page, and the audit data had to be readable at a glance.",
+    "solutions": "Designed a console layout with a single health score and grouped checks, so an operator can see what to fix without exporting a report first.",
+    "createdAt": "2026-11-11T08:00:00.000Z",
+    "updatedAt": "2026-11-11T08:00:00.000Z"
   }
 ]

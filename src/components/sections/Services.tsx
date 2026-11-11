@@ -8,6 +8,7 @@ import {
   FileCode,
   ShoppingBag,
   Search,
+  TrendingUp,
   Zap,
   Shield,
 } from "lucide-react";
@@ -22,6 +23,7 @@ const iconMap: Record<string, React.ElementType> = {
   wordpress: FileCode,
   shopping: ShoppingBag,
   search: Search,
+  trending: TrendingUp,
   zap: Zap,
   shield: Shield,
 };
@@ -35,7 +37,7 @@ export default function Services() {
         <SectionHeading
           label="Services"
           title="What I Can Build For You"
-          description="End-to-end web development services tailored for businesses, agencies, and growing brands."
+          description="Websites, web apps, and SEO for businesses, agencies, and growing brands."
         />
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

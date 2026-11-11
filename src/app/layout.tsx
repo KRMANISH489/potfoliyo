@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SITE_CONFIG } from "@/lib/constants";
 import ChatBot from "@/components/chatbot/ChatBot";
+import { IntroLoader } from "@/components/ui/LoadingScreen";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,9 @@ export const metadata: Metadata = {
     "React",
     "Portfolio",
     "Freelance Developer",
+    "SEO",
+    "Technical SEO",
+    "Local SEO",
   ],
   authors: [{ name: SITE_CONFIG.name }],
   openGraph: {
@@ -63,6 +67,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-[#0a0a0f] text-slate-100 antialiased">
+        <IntroLoader />
         {children}
         <ChatBot />
       </body>

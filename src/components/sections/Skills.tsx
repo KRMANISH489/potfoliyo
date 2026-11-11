@@ -8,12 +8,13 @@ import {
   Layout,
   Wrench,
   Rocket,
+  Search,
 } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import GlassCard from "@/components/ui/GlassCard";
 import { SKILL_CATEGORIES } from "@/lib/constants";
 
-const icons = [Code2, Server, Database, Layout, Wrench, Rocket];
+const icons = [Code2, Server, Database, Layout, Wrench, Rocket, Search];
 
 export default function Skills() {
   return (
@@ -24,7 +25,7 @@ export default function Skills() {
         <SectionHeading
           label="Skills"
           title="Technologies I Work With"
-          description="A modern tech stack for building fast, scalable, and beautiful web experiences."
+          description="The stack I use to build sites, and the SEO work that helps those sites get found."
         />
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

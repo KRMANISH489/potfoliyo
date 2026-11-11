@@ -5,13 +5,13 @@ export const SITE_CONFIG = {
   brand: "CodAbhi",
   brandPart1: "Cod",
   brandPart2: "Abhi",
-  brandTagline: "code · create · deliver",
-  role: "Full Stack Developer",
+  brandTagline: "code · create · rank",
+  role: "Full Stack Developer & SEO",
   headline:
-    "Building modern, fast, and responsive web applications using React.js, Node.js, Express.js, and MongoDB.",
+    "I build fast websites with React.js, Node.js, and MongoDB — and handle the SEO that helps them get found.",
   yearsOfExperience: 3,
   intro:
-    "I am a Full Stack Developer with 3 years of hands-on experience in developing landing pages, business websites, and portfolio websites using modern web technologies. I specialize in creating responsive, performance-optimized, and user-friendly web applications. I have worked on multiple live projects, including landing pages, speed optimization, jump links, and full-stack web development.",
+    "I am a Full Stack Developer with 3 years of hands-on experience in landing pages, business websites, and full-stack web apps. I also offer SEO: on-page, technical, and local work, plus keyword research and rank tracking for the sites I build.",
   email: "krmanish489@gmail.com",
   phone: "+91 9173234214",
   whatsapp: "919173234214",
@@ -28,6 +28,7 @@ export const NAV_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Services", href: "#services" },
+  { label: "Pricing", href: "#pricing" },
   { label: "Process", href: "#process" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
@@ -57,6 +58,17 @@ export const SKILL_CATEGORIES = [
   {
     title: "Deployment",
     skills: ["Vercel", "Netlify", "cPanel", "AWS"],
+  },
+  {
+    title: "SEO",
+    skills: [
+      "On-Page SEO",
+      "Technical SEO",
+      "Local SEO",
+      "Keyword Research",
+      "Search Console",
+      "Rank Tracking",
+    ],
   },
 ];
 
@@ -96,6 +108,12 @@ export const SERVICES = [
     description:
       "Semantic markup, meta optimization, and performance-first builds that search engines love.",
     icon: "search",
+  },
+  {
+    title: "SEO",
+    description:
+      "On-page, technical, and local SEO for the sites I build — keyword research, Search Console, and rank tracking so pages get found.",
+    icon: "trending",
   },
   {
     title: "Website Speed Optimization",
@@ -140,7 +158,7 @@ export const WORK_PROCESS = [
   {
     step: "06",
     title: "Support",
-    description: "Post-launch assistance, updates, and optimization as your business grows.",
+    description: "Post-launch updates, plus SEO so the site keeps getting found as the business grows.",
   },
 ];
 
@@ -175,6 +193,65 @@ export const TESTIMONIALS = [
   },
 ];
 
+export const PRICING_PLANS = [
+  {
+    name: "Informative Website",
+    delivery: "1–2 days",
+    oldPrice: "2,999",
+    price: "999",
+    unit: "per page",
+    cta: "Get Started",
+    popular: false,
+    features: [
+      "Premium page design",
+      "Mobile friendly design",
+      "On-page SEO setup",
+      "Inquiry / contact form",
+      "Social media integration",
+      "Google Map integration",
+      "WhatsApp integration",
+    ],
+  },
+  {
+    name: "Business Website",
+    delivery: "3–5 days",
+    oldPrice: "10,000",
+    price: "4,999",
+    unit: "",
+    cta: "Book Now",
+    popular: true,
+    features: [
+      "Up to 5 pages",
+      "Blog setup",
+      "Mobile and SEO friendly design",
+      "Contact and inquiry forms",
+      "WhatsApp and social media integration",
+      "Google Map integration",
+      "1 month free maintenance",
+    ],
+  },
+  {
+    name: "E-commerce Store",
+    delivery: "3–5 days",
+    oldPrice: "25,000",
+    price: "9,999",
+    unit: "",
+    cta: "Launch Store",
+    popular: false,
+    features: [
+      "WooCommerce store setup",
+      "Payment gateway and shipping setup",
+      "Order dashboard",
+      "WhatsApp and social media integration",
+      "Mobile and SEO friendly design",
+      "Contact and inquiry forms",
+      "Google Map integration",
+      "Popup offers and CTA sections",
+      "1 month free maintenance",
+    ],
+  },
+];
+
 export const PROJECT_TYPES = [
   "Landing Page",
   "Business Website",
@@ -183,5 +260,6 @@ export const PROJECT_TYPES = [
   "WordPress Site",
   "Shopify Store",
   "Website Redesign",
+  "SEO",
   "Other",
 ];

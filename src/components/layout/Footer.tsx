@@ -14,8 +14,8 @@ export default function Footer() {
           <div>
             <BrandLogo href={undefined} size="md" />
             <p className="mt-4 text-sm text-slate-400">
-              by <span className="text-slate-300">{SITE_CONFIG.name}</span> — {SITE_CONFIG.role}{" "}
-              crafting modern web apps from {SITE_CONFIG.location}.
+              by <span className="text-slate-300">{SITE_CONFIG.name}</span> — {SITE_CONFIG.role},{" "}
+              based in {SITE_CONFIG.location}.
             </p>
           </div>
 
