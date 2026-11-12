@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SITE_CONFIG } from "@/lib/constants";
+import { siteJsonLd } from "@/lib/seo";
 import ChatBot from "@/components/chatbot/ChatBot";
 import { IntroLoader } from "@/components/ui/LoadingScreen";
 
@@ -15,12 +16,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const socialTitle = `${SITE_CONFIG.brand} | ${SITE_CONFIG.role}`;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_CONFIG.siteUrl),
   title: {
-    default: `${SITE_CONFIG.brand} | ${SITE_CONFIG.role}`,
+    default: socialTitle,
     template: `%s | ${SITE_CONFIG.brand}`,
   },
-  description: SITE_CONFIG.intro,
+  description: SITE_CONFIG.metaDescription,
   keywords: [
     "Full Stack Developer",
     "Web Developer",
@@ -37,19 +41,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: SITE_CONFIG.siteUrl,
+    url: "/",
     siteName: SITE_CONFIG.brand,
-    title: `${SITE_CONFIG.brand} | ${SITE_CONFIG.role}`,
-    description: SITE_CONFIG.headline,
+    title: socialTitle,
+    description: SITE_CONFIG.metaDescription,
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: socialTitle,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_CONFIG.brand} | ${SITE_CONFIG.role}`,
-    description: SITE_CONFIG.headline,
-  },
-  robots: {
-    index: true,
-    follow: true,
+    title: socialTitle,
+    description: SITE_CONFIG.metaDescription,
+    images: ["/opengraph-image"],
   },
   icons: {
     icon: "/favicon.svg",
@@ -67,6 +76,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-[#0a0a0f] text-slate-100 antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd()) }}
+        />
         <IntroLoader />
         {children}
         <ChatBot />

@@ -31,13 +31,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!project) return { title: "Project Not Found" };
 
+  const path = `/projects/${project.slug}`;
+
   return {
     title: project.name,
     description: project.shortDescription,
+    alternates: {
+      canonical: path,
+    },
     openGraph: {
       title: `${project.name} | ${SITE_CONFIG.name}`,
       description: project.shortDescription,
-      images: [{ url: project.image }],
+      url: path,
+      images: [{ url: project.image, alt: project.name }],
     },
   };
 }

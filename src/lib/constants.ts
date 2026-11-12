@@ -9,6 +9,9 @@ export const SITE_CONFIG = {
   role: "Full Stack Developer & SEO",
   headline:
     "I build fast websites with React.js, Node.js, and MongoDB — and handle the SEO that helps them get found.",
+  /** Search snippet. Keep this under 160 characters so Google does not cut it. */
+  metaDescription:
+    "Full stack developer in New Delhi. I build landing pages, business websites, and web apps, with on-page, technical, and local SEO.",
   yearsOfExperience: 3,
   intro:
     "I am a Full Stack Developer with 3 years of hands-on experience in landing pages, business websites, and full-stack web apps. I also offer SEO: on-page, technical, and local work, plus keyword research and rank tracking for the sites I build.",
@@ -19,7 +22,9 @@ export const SITE_CONFIG = {
   linkedin: "https://www.linkedin.com/in/abhishek-mishra0606/",
   github: "https://github.com/krmanish489",
   location: "New Delhi, India",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  siteUrl: (
+    process.env.NEXT_PUBLIC_SITE_URL || "https://codabhi-dev.vercel.app"
+  ).replace(/\/$/, ""),
 };
 
 export const NAV_LINKS = [
